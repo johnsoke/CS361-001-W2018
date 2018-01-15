@@ -1,0 +1,52 @@
+\documentclass[12pt]{article}
+%\usepackage{times}
+\usepackage{cite}
+%this is a comment
+\title{3x3 Rubik's Cube Blindfolded Tool}
+\author{Keenan Johnson (johnsoke)}
+
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+
+\section{Vision Statement}
+Solving a 3x3 Rubik’s cube is often revered as a feat in itself. Solving the same puzzle but blindfolded may seem impossible but really only requires learning a few things and some practice. The way blindfolded solving is done is by memorizing the cube, putting on your blindfold and then solving the cube. There is some methodology involved in this type of solving. Firstly, we need to recognize that there are two types of pieces on a Rubik’s cube, edges (with 2 colors) and corners (with 3 colors). We utilize solving methods that solve the edges and corners independently from one another.  To memorize the cube’s scrambled state use letters and a certain lettering scheme. You assign each edges color/sticker a letter and do the same for corners. Now, when you are memorizing the scrambled state, you just memorize a string of letters. Once you’ve put your blindfold on, you use intuitive algorithms to solve each piece one by one utilizing the string of letters you memorized to solve the cube correctly.
+
+
+Learning how to do this sort of thing can seem intimidating or seen as a problem. My goal is to create a tool or set of tools that eases the process of learning how to solve a 3x3 Rubik’s cube blindfolded. When it comes to tools, the difference between solving a cube sighted versus blindfolded is the memorization aspect. Blindfolded solving is quite easy in terms of algorithms required and physical moves compared to solving sighted. The difficulty is memorizing the scrambled cube and doing so in a quick and accurate manner. This is why tools can be extremely beneficially to newcomers. Solving a cube sighted is much more popular than solving blindfolded. There are already plenty of resources on solving sighted but much fewer on the topic of blindfolded solving. 
+  
+   My goal is to create a web application that has a tool or a few tools to teach the method of blindfolded solving. I’d like to create tools to do the following:
+ 
+
+\begin{itemize}
+   \item Teach the lettering scheme.
+
+   \begin{itemize}
+      \item Give a visual representation.
+   \end{itemize}
+
+   \item Generate scrambles and the string of letters required for a blindfolded solve. 
+      \begin{itemize}
+         \item This would allow for practicing execution without memorization.
+         \item This would also allow for practicing of memorization but without having to look at the cube.
+      \end{itemize}
+      
+   \item Generate a scramble and have the user come up with and input the string of letters. Then verify the correctness of that string to identify any mistakes in their memorization/recall.
+
+\end{itemize}
+
+   This project is very doable. It’s a simple web application and the only difficulty I can foresee is creating a user-friendly interface. This tool needs to be super easy to use a straightforward so as not to distract or get in the way of the actual task at hand, learning to solve a 3x3 Rubik’s cube blindfolded. Also of note, this tool has a low ceiling. By that I mean that the scope of this tool is small as it can only really be applied to one topic. The audience is small but I assure you it’s there. 
+
+
+
+
+
+\bibliography{myref}
+\bibliographystyle{plain}
+
+\end{document}
